@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story Viewer</title>
+  <link rel="stylesheet" href="./index.css">
+  <script type="module" src="./story-card.js"></script>
+  <script type="module" src="./story-viewer.js"></script>
+</head>
+<body>
+  <story-viewer>
+    <story-card>
+      <img slot="media" src="https://i.imgur.com/88RbRIc.jpg" />
+      <div class="bottom">
+        <h1 style="font-family: serif">A STORY COMPONENT</h1>
+        <p>swipe to navigate</p>
+      </div>
+    </story-card>
+
+    <story-card>
+      <video slot="media" src="https://i.imgur.com/KfpqUdC.mp4" loop playsinline></video>
+      <div class="bottom">
+        <h2>This video will</h2>
+        <h1 style="font-family: serif">AUTOPLAY</h1>
+        <h3>when it's focused</h3>
+      </div>
+    </story-card>
+
+    <story-card>
+      <img slot="media" src="https://i.imgur.com/1wTXrAu.jpg" />
+      <h1>This text</h1>
+      <p>uses <i>default</i> overlay styling.</p>
+    </story-card>
+
+    <story-card>
+      <video slot="media" src="https://i.imgur.com/PwTsAT3.mp4" loop playsinline></video>
+      <div class="bottom">
+        <p>The next card is just a plain</p>
+        <h1>&lt;img&gt; tag</h1>
+      </div>
+    </story-card>
+
+    <img style="object-fit: cover" src="https://i.imgur.com/ktDKGxb.jpg" draggable="false">
+  
+  </story-viewer> 
+</body>
+</html>

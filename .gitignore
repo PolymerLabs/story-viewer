@@ -1,0 +1,5 @@
+node_modules
+build/*.d.ts
+build/*.d.ts.map
+build/*.js
+build/*.js.map

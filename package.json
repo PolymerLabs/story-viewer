@@ -11,7 +11,7 @@
   "devDependencies": {
     "@types/hammerjs": "^2.0.36",
     "es-dev-server": "^1.57.8",
-    "ts-lit-plugin": "^1.2.1"
+    "ts-lit-plugin": "^2.0.2"
   },
   "scripts": {
     "dev": "npm run build & npm run serve & wait",
